@@ -18,7 +18,7 @@ app.include_router(accounts_router)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://finance-management-em.netlify.app"],
+    allow_origins=["http://localhost:5173", "https://celebrated-heliotrope-c4272a.netlify.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
