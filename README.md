@@ -1,1 +1,3 @@
-# budget_tracker
+# Budget Tracker App
+
+FE & BE
