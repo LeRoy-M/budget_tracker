@@ -1,6 +1,6 @@
 
 import axios from "axios"
-const BASE_URL = "https://budget-tracker-v640.onrender.com/"
+const BASE_URL = "https://budget-tracker-v640.onrender.com"
 
 const userLogin = (reqBody: any) => {
     return axios.post(`${BASE_URL}/user/login`, reqBody);
